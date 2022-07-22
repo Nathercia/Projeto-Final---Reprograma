@@ -6,7 +6,7 @@ const petsSchema = mongoose.Schema({
     default: mongoose.Types.ObjectId
   },
 
-  species: [{type:String, required: true}],
+  species: {type: String, required: true},
   name: String,
   age: Number,
   sex: String,
@@ -14,7 +14,7 @@ const petsSchema = mongoose.Schema({
 
   ONG : {
     type: mongoose.Schema.Types.ObjectId,
-    required: true,
+    required: true,    
     ref: 'abrigo'
   }
 

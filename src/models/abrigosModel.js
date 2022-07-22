@@ -13,16 +13,13 @@ const abrigoSchema = mongoose.Schema(
       district: String, 
       street: String
     },
-    contact: Number,
-    escription: String,
-    forms_of_donation: [
-      {
-        value: Number
-      },
-      {
+    contact: String,
+    description: String,
+    forms_of_donation: {
+        value: Number,
         donations: String
       }
-    ]
+  
   }, {timestamps: true})
 
 
