@@ -55,6 +55,22 @@ const findAllUsuarios = async(req, res) => {
   })  
 }
 
+const findUsuarioById = async(req, res) => {
+  try {
+    const findUsuario = await Usuario.findById(req.params.id).populate(['favorite_pets', 'favorite_ongs'])
+
+    if(!findUsuario) {
+      res.status(404).send('Id não encontrado')
+    }
+
+    res.status(200).send(findUsuario)
+  } catch (err) {
+    res.status(500).send({message: err.message})
+  }
+}
+
+
+
 const updateUsuario = async (req, res) => {
 
   const token = auth(req, res);
@@ -70,7 +86,10 @@ const updateUsuario = async (req, res) => {
         const {name, email, password, type, favorite_pets, favorite_ongs} = req.body            
       
         const update = await Usuario
-        .findByIdAndUpdate(req.params.id, {name, email, password, type, favorite_pets, favorite_ongs})
+        .findByIdAndUpdate(req.params.id, 
+          {name, email, password, type, favorite_pets, favorite_ongs})
+            .populate(['favorite_pets', 'favorite_ongs'])
+        
         if(!update) {
           res.status(404).send('Id não encontrado')
         }        
@@ -117,5 +136,6 @@ module.exports = {
   loginUsuario,
   findAllUsuarios,
   updateUsuario,
-  deleteUsuario
+  deleteUsuario,
+  findUsuarioById
 }

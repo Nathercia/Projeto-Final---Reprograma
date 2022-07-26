@@ -20,7 +20,7 @@ const createPet = async(req, res) => {
 
 const findAllPets = async(req, res) => {
   try {
-    const allPets = await Pet.find()    
+    const allPets = await Pet.find().populate('ONG')    
     res.status(200).json(allPets)
       
   } catch(err) {
@@ -30,7 +30,7 @@ const findAllPets = async(req, res) => {
 
 const findById = async(req, res) => {
   try {
-    const findPet = await Pet.findById(req.params.id)
+    const findPet = await Pet.findById(req.params.id).populate('ONG')
 
     res.status(200).send(findPet)
     
