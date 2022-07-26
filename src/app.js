@@ -4,6 +4,7 @@ const cors = require('cors')
 const mongoose = require('./database/mongooseConnect')
 const abrigosRouter = require('./routes/abrigosRouter')
 const petsRouter = require('./routes/petsRouter')
+const usuariosRouter = require('./routes/usuariosRouter')
 
 const app = express()
 
@@ -23,6 +24,8 @@ mongoose.connect()
 
 app.use(abrigosRouter)
 app.use(petsRouter)
+app.use(usuariosRouter)
+
 
 module.exports = app
 

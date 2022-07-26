@@ -3,6 +3,7 @@ const controller = require('../controllers/abrigosController')
 
 const router = express.Router()
 
+router.post('/abrigo/login', controller.loginAbrigo)
 router.post('/abrigo', controller.createAbrigo)
 router.get('/abrigos/name', controller.findByName)
 router.get('/abrigos', controller.findAllAbrigos)

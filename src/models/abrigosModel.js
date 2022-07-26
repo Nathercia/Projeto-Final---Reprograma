@@ -18,7 +18,12 @@ const abrigoSchema = mongoose.Schema(
     forms_of_donation: {
         value: Number,
         donations: String
-      }
+      },
+    
+    email: {type: String, required: true},
+    password: {type: String, required: true},
+    type: {type:String, required: true}
+
   
   }, {timestamps: true})
 
