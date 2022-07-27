@@ -23,6 +23,22 @@ describe("Testes de GET, POST, PUT, DELETE do model de abrigos", () => {
     expect(abrigo.name).toBe("abrigo para teste");
   });
 
+  it("Deve chamar o schema e retornar um abrigo com essa cidade", () => {
+    expect(abrigo.address.city).toBe("Fortaleza");
+  });
+
+  it("Deve chamar o schema e retornar um abrigo com esse telefone", () => {
+    expect(abrigo.contact).toBe("9999-9999");
+  });
+
+  it("Deve chamar o schema e retornar um abrigo com essa descrição", () => {
+    expect(abrigo.description).toBe("Somos uma ong que abriga cães e gatos");
+  });
+
+  it("Deve chamar o schema e retornar um abrigo com essa forma de doação", () => {
+    expect(abrigo.forms_of_donation.pix).toBe(999999999);
+  });
+
   it("Deve chamar o schema e retornar um abrigo com esse email", () => {
     expect(abrigo.email).toBe("abrigo_teste_auth@gmail.com");
   });
@@ -49,4 +65,5 @@ describe("Testes de GET, POST, PUT, DELETE do model de abrigos", () => {
   });
 
 })
+
 
