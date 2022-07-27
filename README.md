@@ -10,7 +10,7 @@
 - [Tecnologias Que Utilizei](#-Tecnologias-Que-Utilizei)
 - [Preparando o Ambiente Para o Projeto](#-Preparando-o-Ambiente-Para-o-Projeto)
 - [Banco De Dados](#-Banco-De-Dados)
-- [Rotas (endponts)](#-Rotas-(endponts))
+- [Rotas (endpoints)](#-Rotas-(endpoints))
 - [Autenticação e Rotas De Login](#-Autenticação-e-Rotas-De-Login)
 - [Teste Jest](#-Teste-Jest)
 - [Deploy Heroku](#-Deploy-Heroku)
@@ -146,7 +146,7 @@ Foram utilizados três schemas:
 
 </br>
 
-##  Rotas (endeponts)
+##  Rotas (endepoints)
 
 </br>
 

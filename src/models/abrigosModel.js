@@ -16,7 +16,7 @@ const abrigoSchema = mongoose.Schema(
     contact: String,
     description: String,
     forms_of_donation: {
-        pix: Number,
+        pix: String,
         donations: String
       },
     
