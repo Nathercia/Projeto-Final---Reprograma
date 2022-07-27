@@ -1,14 +1,7 @@
-<h1 align="center">
-    <br>
-    <p align="center"> AchAmigo <p>
-</h1></br>
-<h2 align="center">
-    <p :dog: :dog: :dog:>
-    <p align="center"> API de coleção de abrigos e de animais para adoção <p>
-</h2></br>
+# AchAmigo ![4GZ9](https://user-images.githubusercontent.com/83047619/181363187-fdc21a41-b933-4f4a-a4c0-79cc6b68cc11.gif)
 
-</br>
-![4tyo](https://user-images.githubusercontent.com/83047619/181359994-1aa159f5-0783-4623-b6b2-be2c99c09fa3.gif)
+## API de coleção de abrigos e de animais para adoção
+
 </br>
 
 <!--ts-->
@@ -21,7 +14,6 @@
 - [Autenticação e Rotas De Login](#-Autenticação-e-Rotas-De-Login)
 - [Teste Jest](#-Teste-Jest)
 - [Deploy Heroku](#-Deploy-Heroku)
-
 
 <!--te-->
 </br>
