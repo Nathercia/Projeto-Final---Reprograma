@@ -5,8 +5,12 @@ const mongoose = require('./database/mongooseConnect')
 const abrigosRouter = require('./routes/abrigosRouter')
 const petsRouter = require('./routes/petsRouter')
 const usuariosRouter = require('./routes/usuariosRouter')
+const swaggerUi = require('swagger-ui-express')
+const swaggerFile = require('../swagger/swagger_output.json');
 
 const app = express()
+
+app.use('/minha-rota-de-documentacao', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 app.use(function (request, response, next) {
   response.header("Access-Control-Allow-Origin", "*")
