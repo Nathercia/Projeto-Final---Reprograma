@@ -3,12 +3,12 @@
     <p align="center"> AchAmigo <p>
 </h1></br>
 <h2 align="center">
-    <br>
-    <p align="center"> API com coleção de abrigos e de animais para adoção <p>
+    <p :dog: :dog: :dog:>
+    <p align="center"> API de coleção de abrigos e de animais para adoção <p>
 </h2></br>
 
 </br>
-<iframe src="https://giphy.com/embed/ipYxohtCI8h6Os5ffs" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bestfriends-save-them-all-bfas-adopt-a-shelter-pet-day-ipYxohtCI8h6Os5ffs">via GIPHY</a></p>
+![4tyo](https://user-images.githubusercontent.com/83047619/181359994-1aa159f5-0783-4623-b6b2-be2c99c09fa3.gif)
 </br>
 
 <!--ts-->
@@ -20,7 +20,7 @@
 - [Rotas (endponts)](#-Rotas-(endponts))
 - [Autenticação e Rotas De Login](#-Autenticação-e-Rotas-De-Login)
 - [Teste Jest](#-Teste-Jest)
-- [Deploy: Heroku](#-Deploy:-Heroku)
+- [Deploy Heroku](#-Deploy-Heroku)
 
 
 <!--te-->
@@ -33,7 +33,6 @@
 Esse projeto tem como objetivo o desenvolvimento de uma API que une informações de vários abrigos/ongs, que cuidam de animais sem lar e tentam dar uma nova vida para esses bichinhos a partir do processo de adoção.
 Os abrigos poderão cadastrar suas principais informações, assim como os meios que utilizam para receberem doações. Alem disso, poderão disponibilizar uma lista completo com informações dos pets que estão disponívies para adoção. Já o usuário que tem interesse em doar para esses abrigo, ou em adotar um pet e Achar um novo Amigo poderá unir todas essas informações em um só lugar.
 O AchAmigo foi desenvolvido como trabalho final do curso de backend da {Reprograma}.
-
 
 </br>
 
@@ -94,7 +93,6 @@ A arquitetura segue o padrão mvc e suas pastas e arquivos estão organizados as
 ```
 </br>
 
-
 ##  Tecnologias Que Utilizei
 
 </br>
@@ -143,6 +141,8 @@ Seguiremos a ordem de instalações no terminal:
 </br>
 
 ##  Banco De Dados
+
+</br>
 
 Para o desenvolvimento do projeto foi necessário a criação de uma conta no MongoDb onde os dados dos modelos ficam armazenados.
 
@@ -226,7 +226,7 @@ Instalar o Jest dentro da pasta raiz do projeto:
 
 </br>
 
-## Deploy: Heroku
+## Deploy Heroku
 
 </br>
 
