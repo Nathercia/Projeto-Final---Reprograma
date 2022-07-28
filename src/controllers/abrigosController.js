@@ -86,11 +86,11 @@ const updateAbrigo = async (req, res) => {
 
   const token = auth(req, res);
   jwt.verify(token, SECRET, async (err, user) => {
-    console.log('user: ', user)
+    
     if (err) {
       return res.status(403).send("Token inválido!");      
     } else if(user.type !== 'abrigo') {
-      return res.status(401).send("Falied! Voce precisa ser um abrigo para cadastrar pet");
+      return res.status(401).send("Falied! Voce precisa ter cadastro de abrigo");
     }
 
     try {    
@@ -116,7 +116,7 @@ const deleteAbrigo = async(req, res) => {
 
   const token = auth(req, res);
   jwt.verify(token, SECRET, async (err, user) => {
-    console.log('user: ', user)
+    
     if (err) {
       return res.status(403).send("Token inválido!");      
     } else if(user.type !== 'abrigo') {

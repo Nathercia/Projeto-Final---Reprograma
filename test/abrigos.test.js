@@ -11,7 +11,7 @@ describe("Testes de GET, POST, PUT, DELETE do model de abrigos", () => {
     contact: "9999-9999",
     description: "Somos uma ong que abriga cães e gatos",
     forms_of_donation: {
-        pix: 999999999,
+        pix: "999999999",
         donations: "racao"
     },
     email: "abrigo_teste_auth@gmail.com",
@@ -36,7 +36,7 @@ describe("Testes de GET, POST, PUT, DELETE do model de abrigos", () => {
   });
 
   it("Deve chamar o schema e retornar um abrigo com essa forma de doação", () => {
-    expect(abrigo.forms_of_donation.pix).toBe(999999999);
+    expect(abrigo.forms_of_donation.pix).toBe("999999999");
   });
 
   it("Deve chamar o schema e retornar um abrigo com esse email", () => {

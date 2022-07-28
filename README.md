@@ -18,7 +18,7 @@
 <!--te-->
 </br>
 
-##  AchAmigo
+## :paw_prints: AchAmigo
 
 </br>
 
@@ -28,7 +28,7 @@ O AchAmigo foi desenvolvido como trabalho final do curso de backend da {Reprogra
 
 </br>
 
-##  Arquitetura do Projeto
+## :paw_prints: Arquitetura do Projeto
 
 </br>
 
@@ -85,7 +85,7 @@ A arquitetura segue o padrão mvc e suas pastas e arquivos estão organizados as
 ```
 </br>
 
-##  Tecnologias Que Utilizei
+## :paw_prints: Tecnologias Que Utilizei
 
 </br>
 
@@ -109,7 +109,7 @@ A arquitetura segue o padrão mvc e suas pastas e arquivos estão organizados as
 
 </br>
 
-##  Preparando o Ambiente Para o Projeto
+## :paw_prints: Preparando o Ambiente Para o Projeto
 
 </br>
 
@@ -132,7 +132,7 @@ Seguiremos a ordem de instalações no terminal:
 
 </br>
 
-##  Banco De Dados
+## :paw_prints: Banco De Dados
 
 </br>
 
@@ -146,7 +146,7 @@ Foram utilizados três schemas:
 
 </br>
 
-##  Rotas (endepoints)
+## :paw_prints: Rotas (endepoints)
 
 </br>
 
@@ -182,7 +182,7 @@ Através da ferramento Postman é possível chegar às seguintes rotas:
 
 </br>
 
-##  Autenticação e Rotas de Login:
+## :paw_prints: Autenticação e Rotas de Login:
 
 </br>
 
@@ -206,7 +206,7 @@ A autenticação é exigida no acesso via header do Postman com a opção: **Aut
 
 </br>
 
-##  Teste Jest
+## :paw_prints: Teste Jest
 
 </br>
 
@@ -218,7 +218,7 @@ Instalar o Jest dentro da pasta raiz do projeto:
 
 </br>
 
-## Deploy Heroku
+## :paw_prints: Deploy Heroku
 
 </br>
 
