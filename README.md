@@ -5,15 +5,15 @@
 </br>
 
 <!--ts-->
-- [AchAmigo](#-AchAmigo)
-- [Arquitetura do Projeto](#-Arquitetura-do-Projeto)
-- [Tecnologias Que Utilizei](#-Tecnologias-Que-Utilizei)
-- [Preparando o Ambiente Para o Projeto](#-Preparando-o-Ambiente-Para-o-Projeto)
-- [Banco De Dados](#-Banco-De-Dados)
-- [Rotas (endpoints)](#-Rotas-(endpoints))
-- [Autenticação e Rotas De Login](#-Autenticação-e-Rotas-De-Login)
-- [Teste Jest](#-Teste-Jest)
-- [Deploy Heroku](#-Deploy-Heroku)
+- [AchAmigo](##-:paw_prints:-AchAmigo)
+- [Arquitetura do Projeto](##-:paw_prints:-Arquitetura-do-Projeto)
+- [Tecnologias Que Utilizei](##-:paw_prints:-Tecnologias-Que-Utilizei)
+- [Preparando o Ambiente Para o Projeto](##-:paw_prints:-Preparando-o-Ambiente-Para-o-Projeto)
+- [Banco De Dados](##-:paw_prints:-Banco-De-Dados)
+- [Rotas (endpoints)](##-:paw_prints:-Rotas-(endepoints)))
+- [Autenticação e Rotas De Login](##-:paw_prints:-Autenticação-e-Rotas-de-Login:)
+- [Teste Jest](##-:paw_prints:-Teste-Jest)
+- [Deploy Heroku](##-:paw_prints:-Deploy-Heroku)
 
 <!--te-->
 </br>
@@ -22,9 +22,12 @@
 
 </br>
 
+Projeto de conclusão do curso de Desenvolvimento Back-end - Todas em Tech | On16 da [{reprograma}](https://www.reprograma.com.br/).
+
 Esse projeto tem como objetivo o desenvolvimento de uma API que une informações de vários abrigos/ongs, que cuidam de animais sem lar e tentam dar uma nova vida para esses bichinhos a partir do processo de adoção.
 Os abrigos poderão cadastrar suas principais informações, assim como os meios que utilizam para receberem doações. Alem disso, poderão disponibilizar uma lista completo com informações dos pets que estão disponívies para adoção. Já o usuário que tem interesse em doar para esses abrigo, ou em adotar um pet e Achar um novo Amigo poderá unir todas essas informações em um só lugar.
-O AchAmigo foi desenvolvido como trabalho final do curso de backend da {Reprograma}.
+
+Visualize a apresentação do projeto aqui [AchAmigo](https://www.canva.com/design/DAFHn2mpVJM/0KvCGGb9M3KZ1obTO2YpNA/view?utm_content=DAFHn2mpVJM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) :desktop_computer:
 
 </br>
 
@@ -177,7 +180,7 @@ Através da ferramento Postman é possível chegar às seguintes rotas:
 
 </br>
 
-📌 A documentação via Swagger do projeto pode ser acessada pelo link: [Swagger aqui](http://acha-amigo.herokuapp.com/minha-rota-de-documentacao/).
+📌 A documentação via Swagger do projeto pode ser acessada pelo link: [Swagger aqui](http://acha-amigo.herokuapp.com/minha-rota-de-documentacao/#/).
 
 
 </br>
